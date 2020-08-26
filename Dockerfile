@@ -1,5 +1,5 @@
 FROM alpine:latest
-MAINTAINER Jemy Zhang <jemy.zhang@gmail.com>
+MAINTAINER zeXtreme <zerozwy@gmail.com>
 
 ENV LANG C.UTF-8
 ENV TZ 'Asia/Shanghai'
@@ -10,7 +10,7 @@ ENV HTTPS_PROXY ""
 
 RUN apk --update upgrade \
     && apk --update add tzdata ca-certificates \
-       ffmpeg libmagic python3 \
+       ffmpeg libmagic python3 py3-pip \
        tiff libwebp freetype lcms2 openjpeg py3-olefile openblas \
        py3-numpy py3-pillow py3-cryptography py3-decorator cairo
 RUN pip3 install pysocks ehforwarderbot efb-telegram-master efb-wechat-slave efb-patch-middleware
