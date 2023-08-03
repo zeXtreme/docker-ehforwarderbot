@@ -4,4 +4,3 @@ efb-wechat-slave==2.0.7
 efb-msg-blocker-middleware==1.1.0
 efb-notice-middleware==0.0.6
 efb-voice-recog-middleware==1.0.3
-efb-patch-middleware==2.0.23
