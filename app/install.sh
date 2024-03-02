@@ -12,7 +12,7 @@ pip3 install -U pip
 # install basic packages
 pip3 install -r $APPDIR/requirements.txt
 # install forked version of efb-wechat-slave
-pip3 install --no-deps -e git+https://github.com/ehForwarderBot/efb-wechat-slave.git#egg=efb-wechat-slave
+pip3 install --no-deps -e git+https://github.com/zeXtreme/efb-wechat-slave.git#egg=efb-wechat-slave
 # install forked version of efb-patch-middleware
 pip3 install --no-deps -e git+https://github.com/ehForwarderBot/efb-patch-middleware.git#egg=efb-patch-middleware
 # deactivate virtual environment
