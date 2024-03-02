@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-alpine:3.17
+FROM ghcr.io/linuxserver/baseimage-alpine:3.16
 
 RUN set -ex \
         && apk add --virtual .run-deps \
@@ -21,7 +21,6 @@ RUN set -ex \
                 py3-ruamel.yaml \
                 py3-setuptools \
                 py3-tempora \
-                py3-tornado \
                 py3-ujson \
                 py3-yaml \
                 sqlite \
