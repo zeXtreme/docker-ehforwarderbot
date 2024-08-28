@@ -1,4 +1,4 @@
 ehforwarderbot==2.1.1
 efb-telegram-master[tgs]==2.3.1
-efb-wechat-slave==2.0.7
-efb-patch-middleware==2.0.23
+efb-wechat-slave==2.0.7 @ git+https://github.com/zeXtreme/efb-wechat-slave.git
+efb-patch-middleware==2.0.23 @ git+https://github.com/ehForwarderBot/efb-patch-middleware.git
